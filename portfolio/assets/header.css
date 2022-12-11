@@ -1,0 +1,28 @@
+header {
+    background-color: var(--orange);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+
+}
+
+header a {
+    color: var(--black);
+}
+
+header nav{
+    width: 70%;
+
+}
+
+.header-lista {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+

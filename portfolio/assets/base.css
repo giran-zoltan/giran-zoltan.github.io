@@ -1,0 +1,32 @@
+:root {
+    --gray: #2c2c32;
+    --orange: #f5b32f;
+    --white: #ffffff;
+    --black: #000000f;
+    --main-font: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none; 
+}
+
+img {
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+body{
+    background: var(--gray);
+    font-family: var(--main-font)
+}
+
+
+
+

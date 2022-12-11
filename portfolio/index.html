@@ -1,22 +1,198 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfólió</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,300;1,600;1,800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./assets/base.css">
+<link rel="stylesheet" href="./assets/header.css">
+<link rel="stylesheet" href="./assets/fooldal.css">
+
 </head>
 <body>
+<!--HEADER-->
+<header>
+    <!--Logó-->
+    <a href="#fooldal" class="header-logo">Girán Zoltán</a>
+    <!--Navigáció-->
+    <nav>
+        <ul class="header-lista">
+            <li class="header-lista_elem"><a href="#fooldal">Főoldal</a></li>
+            <li class="header-lista_elem"><a href="#rolam">Rólam</a></li>
+            <li class="header-lista_elem"><a href="#portfolio">Portfólió</a></li>
+            <li class="header-lista_elem"><a href="#kapcsolat">Kapcsolat</a></li>            
+        </ul>
+    </nav>
+</header>
+<!--MAIN-->
+<main>
+    <!--főoldal-->
+    <section id="fooldal">
+        <!--Konténer-->
+        <div class="fooldal-kontener">
+            <h1 class="fooldal-nev">Girán Zoltán</h1>
+            <h2 class="fooldal-szakma">Frontend <div class="fooldal-szakma_kiemeles">Webfejlesztő</div></h2>
+            <a href="#kapcsolat" class="fooldal-gomb">Kapcsolat</a>
+        </div>
+        <!--Kép-->
+        <img src="./assets/images.png" alt="Girán Zoltán" class="fooldal-kep">
 
-    <h1>Portfolio Homepage</h1>
+    </section>
+    <!--rólam-->
+    <section id="rolam">
+        <!--Cím-->
+        <h2 class="rolam-cim">Rólam</h2>
+        <!--konténer-->
+        <div class="rolam-kontener">
+            <!--technológiák-->
+            <div class="rolam-technologiak">
+                <img    class="rolam-technologiak_kep" 
+                        src="./assets.main.png" 
+                        alt="Girán Zoltán">
+                />        
+                <div class="rolam-technologiak_kep">
+                    <p class="rolam-technologiak_cim">Technológiák:</p>            
+                    <ul class="rolam-technologiak_lista">
+                        <li class="rolam-technologiak_elem">HTML</li>
+                        <li class="rolam-technologiak_elem">CSS</li>
+                        <li class="rolam-technologiak_elem">Javascript</li>
+                        <li class="rolam-technologiak_elem">Wordpress</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Tartalom-->
+        <div class="rolam-tartalom">
+            <h4 class="rolam-tartalom_udv">Hello, az én nevem</h4>
+            <h3 class="rolam-tartalom_nev">Girán Zoltán</h3>
+            <h4 class="rolam-tartalom_udv">Frontend fejlesztő</h4>
+            <p class="rolam-tartalom_szöveg">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, suscipit. Dolores accusamus deserunt quasi, dolor a adipisci! Qui facilis eum dolor deleniti id, veritatis autem magni saepe ullam. Molestiae, aliquam!
+                Accusantium, rerum dolores. Recusandae mollitia sequi dicta animi minus aliquid commodi quam quibusdam quidem? Soluta laborum nihil tempore quasi! Praesentium, earum doloribus! Consectetur quod perspiciatis nulla repellendus eos, fugiat eveniet.
+                Voluptatem in deleniti reprehenderit. Suscipit exercitationem alias nemo fugiat obcaecati. Pariatur eos aperiam quisquam ipsa iste incidunt hic? Excepturi delectus iste quas! Iste quo assumenda illum quae cupiditate in esse.
+            </p>
+            <div class="rolam-tartalom_kontener">
+                <a href="#kapcsolat">Kapcsolat</a>
+                <a href=".assets/CV.pdf" download>Önéletrajz</a>
+                
+            </div>
 
-        <h3>Név</h3>
-
-            <p>Girán Zoltán</p>
-
-        <h3>Email cím</h3>
+        </div>
         
-            <p>giranzoltan@gmail.com</p>
+        
+        </section>
+    <!--portfólió-->
+    <section id="portfolio">
+        <!--Cím-->
+        <h2 class="portfolio-cim">Portfolió</h2>
+        <div class="portfolio-kontener">
+            <div class="portfolio-projektek">
+                <img 
+                    src="./assets/projekt.png" 
+                    alt="Az én projektem" 
+                    class="portfolio-projekt_kep"
+                />
+                <div class="portfolio-projekt_kontener">
+                    <h3>Portfolio oldal</h3>
+                    <a href="https://github.com/" target="_blank">
+                        <i></i>
+                    </a>
 
-</body>
+                </div>    
+            </div>
+            <div class="portfolio-projektek">
+                <img 
+                    src="./assets/projekt.png" 
+                    alt="Az én projektem" 
+                    class="portfolio-projekt_kep"
+                />
+                <div class="portfolio-projekt_kontener">
+                    <h3>Portfolio oldal</h3>
+                    <a href="https://github.com/" target="_blank">
+                        <i></i>
+                    </a>
+
+                </div>    
+            </div>
+            <div class="portfolio-projektek">
+                <img 
+                    src="./assets/projekt.png" 
+                    alt="Az én projektem" 
+                    class="portfolio-projekt_kep"
+                />
+                <div class="portfolio-projekt_kontener">
+                    <h3>Portfolio oldal</h3>
+                    <a href="https://github.com/" target="_blank">
+                        <i></i>
+                    </a>
+
+                </div>    
+            </div>
+            <div class="portfolio-projektek">
+                <img 
+                    src="./assets/projekt.png" 
+                    alt="Az én projektem" 
+                    class="portfolio-projekt_kep"
+                />
+                <div class="portfolio-projekt_kontener">
+                    <h3>Portfolio oldal</h3>
+                    <a href="https://github.com/" target="_blank">
+                        <i></i>
+                    </a>
+
+                </div>    
+            </div>
+            <div class="portfolio-projektek">
+                <img 
+                    src="./assets/projekt.png" 
+                    alt="Az én projektem" 
+                    class="portfolio-projekt_kep"
+                />
+                <div class="portfolio-projekt_kontener">
+                    <h3>Portfolio oldal</h3>
+                    <a href="https://github.com/" target="_blank">
+                        <i></i>
+                    </a>
+
+                </div>    
+            </div>
+        </div>
+        
+
+
+    </section>
+    <!--kapcsolat-->
+    <section id="kapcsolat">
+        <h2 class="kapcsolat-cim">Kapcsolat</h2>
+        <h3 class="kapcsolat-szöveg">Lépj velem kapcsolatba</h3>
+        <form   class="kapcsolat-form"
+                action="https://formspree.io/f/xrgdnzkd"
+                method="POST">  
+           <input type="text" name="name" id="name" placeholder="Név">
+           <input type="email" name="email" id="email" placeholder="Email">
+           <textarea name="message" id="message" Placeholder="Üzenet"></textarea>
+           <input type="submit" value="Küld">
+        </form>
+    </section>
+
+</main>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="footer-copyright">
+            <p class="footer-copyright_elem">Copyright</p>
+            <span class="footer-copyright_elem">&copy;</span>
+            <p class="footer-copyright_elem">2022 Girán Zoltán</p>
+        </div>
+        <div class="footer-vissza">
+            <a href="#fooldal">
+                <i></i>
+            </a>
+        </div>
+    </footer>
 </html>

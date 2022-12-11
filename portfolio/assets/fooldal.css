@@ -1,0 +1,72 @@
+#fooldal {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fooldal-kep {
+    display:none;
+
+}
+
+.fooldal-kontener {
+   
+    text-align: center;
+    letter-spacing: .3rem;
+}
+
+.fooldal-nev {
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 25px;
+}
+
+.fooldal-szakma {
+    color: var(--orange);
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 80px;
+
+}
+
+.fooldal-szakma_kiemeles {
+    color: var(--white);
+    margin-top: 40px;
+}
+
+.fooldal-gomb {
+    color: var(--black);
+    margin-top: 40px;
+    padding: 1rem 3rem;
+    background: var(--orange);
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.fooldal-gomb:hover {
+    background: var(--white);
+    border: 2px solid vae(--white);
+    box-shadow: 1px 1px 5px 1px var(--white);
+}
+
+@media screen and (min-width: 576px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+    .fooldal-kep {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
+}
