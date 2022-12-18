@@ -1,6 +1,6 @@
 :root {
     --gray: #2c2c32;
-    --orange: #f5b32f;
+    --orange: #c45c2c;
     --white: #ffffff;
     --black: #000000f;
     --main-font: 'Poppins', sans-serif;
@@ -15,7 +15,7 @@
 }
 
 img {
-    width: 100%;
+    width: 70%;
 }
 
 html {
