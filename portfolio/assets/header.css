@@ -6,12 +6,7 @@ header {
     align-items: center;
     position: fixed;
     width: 100vw;
-    height: 30px;
-
-  
-
-
-
+    padding-bottom: 35px;
 }
 
 header a {
@@ -20,9 +15,6 @@ header a {
 
 header nav{
     width: 50%;
-
-
-
 }
 
 .header-lista {
@@ -30,13 +22,10 @@ header nav{
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-
-
 }
 
 .header-lista_elem:hover {
     color:  var(--white);
-
 }
 
 
