@@ -6,7 +6,8 @@ header {
     align-items: center;
     position: fixed;
     width: 100vw;
-    padding-bottom: 35px;
+    height: 5vh;
+    z-index: 10;
 }
 
 header a {
@@ -14,19 +15,98 @@ header a {
 }
 
 header nav{
-    width: 50%;
+  margin-right: 20px;
+}
+
+.nav-checkbox{
+    display: none;
+}
+
+.nav-checkbox_gomb{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.nav-checkbox_vonal{
+    width: 90%;
+    height: 3px;
+    background-color: var(--black);
+
 }
 
 .header-lista {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
+    position: fixed;
+    background-color: var(--orange);
+    min-width: 150px;
+    max-width: 200px;
+    width: 50vw;
+    height: 100%;
+    right: -200px;
+    visibility: hidden;
+    transition: right 0.4s, visibility 0.4s;
+ 
 }
 
-.header-lista_elem:hover {
-    color:  var(--white);
+.header-lista_elem{
+    text-align: center;
+    margin: 2vh 0;
+}
+
+.header-lista_elem a{
+
+    display: block;
+    padding: 20px 0;
+    font-size: 1.2rem;
+    color: var(--black);
+}
+
+.nav-checkbox:checked ~ .header-lista {
+    right: 0px;
+    visibility: visible;
 }
 
 
+@media screen and (min-width: 576px) {
+    
+}
 
+@media screen and (min-width: 768px) {
+    .nav-checkbox_gomb{
+        display: none;
+    }
+
+    .header-lista{
+        visibility: visible;
+        position: static;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 70vw;
+        max-width: 70vw;
+    }
+
+    .header-lista_elem{
+        margin: 0;
+    }
+
+    .header-lista_elem a {
+        padding: 0;
+
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
+}
